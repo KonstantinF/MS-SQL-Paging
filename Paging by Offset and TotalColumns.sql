@@ -29,7 +29,7 @@
 -- Generic Paging flow: ( style 2012 )
 
 -- Declare Local Variables:
-	DECLARE @OrderByColumn SYSNAME = 'ColName'
+	DECLARE @OrderByColumn SYSNAME = 'ColName' 
 	DECLARE @OrderByIsDescending BIT = 0
 	DECLARE @ConditionParam1 INT = 10
 	DECLARE @ConditionParam2 VARCHAR(100) = 'TestParam'
